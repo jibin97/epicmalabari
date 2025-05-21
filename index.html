@@ -54,6 +54,9 @@
         font-weight: 600;
         line-height: 1.2;
       }
+      a {
+        text-decoration: none;
+      }
 
       .container {
         width: 100%;
@@ -113,7 +116,7 @@
       }
 
       .header-content {
-        margin-top: 150px;
+        margin: auto;
         max-width: 900px;
         padding: 0 20px;
         opacity: 0;
@@ -650,6 +653,7 @@
         border-radius: 5px;
         cursor: pointer;
         transition: all 0.3s ease;
+        text-decoration: none;
       }
 
       .submit-btn:hover {
@@ -836,7 +840,7 @@
                 </div>
                 <div>
                   <h4>Ahammed Razi</h4>
-                  <p>Project Lead</p>
+                  <p>Director</p>
                 </div>
               </div>
 
@@ -846,7 +850,7 @@
                 </div>
                 <div>
                   <h4>Hiba Nazrin</h4>
-                  <p>Adventure Specialist</p>
+                  <p>Executive Director</p>
                 </div>
               </div>
             </div>
@@ -1238,34 +1242,44 @@
             <div class="form-group">
               <textarea placeholder="Your Message" rows="5" required></textarea>
             </div> -->
-            <button type="submit" class="submit-btn">Send Message</button>
+            <a href="https://wa.me/+447717120918?text=hello" class="submit-btn"
+              >Send Message</a
+            >
           </form>
         </div>
 
         <div class="contact-info">
-          <div class="contact-item">
+          <!-- <div class="contact-item">
             <div class="contact-icon">
               <i class="fas fa-map-marker-alt"></i>
             </div>
             <h3>Address</h3>
             <p>123 Adventure Lane, Forest Hills, CA 90210</p>
-          </div>
+          </div> -->
 
-          <div class="contact-item">
+          <a href="tel:+447717120918" class="contact-item">
             <div class="contact-icon">
               <i class="fas fa-phone-alt"></i>
             </div>
             <h3>Phone</h3>
-            <p>(555) 123-4567</p>
-          </div>
+            <p>+44 77 1712 0918</p>
+          </a>
 
-          <div class="contact-item">
+          <a href="tel:+447721899969" class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <h3>Phone</h3>
+            <p>+44 77 2189 9969</p>
+          </a>
+
+          <a href="mailto:epicmalbari@gmail.com" class="contact-item">
             <div class="contact-icon">
               <i class="fas fa-envelope"></i>
             </div>
             <h3>Email</h3>
             <p>epicmalbari@gmail.com</p>
-          </div>
+          </a>
         </div>
 
         <div class="logos">
