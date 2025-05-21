@@ -129,7 +129,7 @@
         color: var(--white);
         font-size: 4rem;
         line-height: 1;
-        text-align: left;
+        text-align: center;
       }
 
       /* Section Styles */
@@ -220,11 +220,15 @@
       }
 
       .team-photo {
-        width: 50px;
-        height: 50px;
+        width: 100px;
+        height: 100px;
         border-radius: 50%;
         background-color: var(--accent-green);
         overflow: hidden;
+      }
+
+      .team-photo img {
+        height: 100%;
       }
 
       .intro-image {
@@ -753,6 +757,9 @@
       }
 
       @media (max-width: 768px) {
+        .activity {
+          width: 150px;
+        }
         .header-content h1 {
           font-size: 2.5rem;
         }
@@ -812,8 +819,9 @@
       </nav>
 
       <div class="header-content">
-        <h1>EPiC <br />MALABARi</h1>
-        <h3>Adventure camping</h3>
+        <h2>Welcome to</h2>
+        <h1>Epic Malabari Limited.</h1>
+        <h3>Serenity in Nature - A Journey Back to Your Inner Peace</h3>
       </div>
     </header>
 
@@ -821,23 +829,30 @@
     <section id="introduction">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Introduction</h2>
+          <h2 class="section-title">About Us</h2>
         </div>
 
         <div class="intro-section">
           <div class="intro-text">
             <p>
-              Welcome to our adventure camp project proposal. We aim to create
-              an unforgettable outdoor experience that combines adventure,
-              learning, and personal growth in a natural setting. Our team has
-              extensive experience in organizing outdoor activities and
-              educational programs.
+              Epic Malabari limited is a wellness-driven initiative committed to
+              creating safe and inspiring spaces where people can pause,
+              reflect, and reconnect with themselves. Our flagship program
+              includes a one-day summer camps, walk to nature, explore the
+              world.
+            </p>
+            <br />
+            <p>
+              It is thoughtfully designed to restore mental clarity, encourage
+              emotional release, inspire creative expression and promote deep
+              relaxation all through the transformative power of nature,
+              storytelling, art, and movement.
             </p>
 
             <div class="team-members">
               <div class="team-member">
                 <div class="team-photo">
-                  <img src="" alt="" />
+                  <img src="assets/razi.jpg" alt="" />
                 </div>
                 <div>
                   <h4>Ahammed Razi</h4>
@@ -847,7 +862,7 @@
 
               <div class="team-member">
                 <div class="team-photo">
-                  <img src="" alt="" />
+                  <img src="assets/hiba.jpg" alt="" />
                 </div>
                 <div>
                   <h4>Hiba Nazrin</h4>
@@ -858,7 +873,7 @@
           </div>
 
           <div class="intro-image">
-            <img src="/api/placeholder/600/400" alt="placeholder" />
+            <img src="assets/image1.webp" alt="camping" />
           </div>
         </div>
       </div>
@@ -897,9 +912,9 @@
     <!-- Objectives -->
     <section id="objectives">
       <div class="container">
-        <div class="section-header">
+        <!-- <div class="section-header">
           <h2 class="section-title">Objectives</h2>
-        </div>
+        </div> -->
 
         <div class="objectives">
           <div class="objective-item">
@@ -959,7 +974,7 @@
     <section id="target" class="target-section">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Target Audience</h2>
+          <h2 class="section-title">We welcomes</h2>
         </div>
 
         <div class="audience-types">
@@ -968,7 +983,7 @@
               <i class="fas fa-graduation-cap"></i>
             </div>
             <h3>Students</h3>
-            <p>Ages 12-18</p>
+            <p>Ages 18+</p>
           </div>
 
           <div class="audience-type">
@@ -1006,12 +1021,38 @@
       </div>
     </section>
 
+    <!-- oneday -->
+    <section id="conclusion" class="conclusion-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">One Day, A Lifetime of Calm.</h2>
+        </div>
+
+        <div class="conclusion-text" style="text-align: justify">
+          <p>
+            Whether you're feeling overwhelmed, burned out, or simply need to
+            step back from the noise, Epic malabari is your invitation to heal
+            in harmony with the earth.
+          </p>
+          <br />
+          <p>
+            Set in a peaceful natural retreat, this immersive experience
+            includes: Guided mindfulness walks Nature-inspired art therapy
+            Therapeutic storytelling sessions Gentle movement & breathwork Safe
+            circles for emotional expression By the end of the day, you'll feel
+            more connected, grounded, and empowered to face life with renewed
+            strength and clarity.
+          </p>
+        </div>
+      </div>
+    </section>
+
     <!-- Camp Activities -->
     <section id="activities" class="diagonal-section">
       <div class="diagonal-bg"></div>
       <div class="diagonal-content">
         <div class="section-header">
-          <h2 class="section-title">Camp Activities</h2>
+          <h2 class="section-title">Get involved in</h2>
         </div>
 
         <div class="activities">
@@ -1033,34 +1074,33 @@
 
           <div class="activity">
             <div class="activity-icon">
-              <i class="fas fa-water"></i>
+              <i class="fa-solid fa-book-open-reader"></i>
             </div>
-            <h3>Kayaking</h3>
-            <p>River and lake expeditions</p>
+            <h3>Story Telling</h3>
+            <p>Stories that bring us closer</p>
           </div>
 
           <div class="activity">
             <div class="activity-icon">
-              <i class="fas fa-tree"></i>
+              <i class="fa-solid fa-mountain-sun"></i>
             </div>
-            <h3>Rope Courses</h3>
+            <h3>Trecking</h3>
             <p>Challenge aerial obstacles</p>
           </div>
-
           <div class="activity">
             <div class="activity-icon">
-              <i class="fas fa-fire"></i>
+              <i class="fa-solid fa-face-smile"></i>
             </div>
-            <h3>Survival Skills</h3>
-            <p>Fire making and shelter building</p>
+            <h3>Meditation</h3>
+            <p>Where the mind finds peace</p>
           </div>
 
           <div class="activity">
             <div class="activity-icon">
-              <i class="fas fa-map-marked-alt"></i>
+              <i class="fa-solid fa-guitar"></i>
             </div>
-            <h3>Orienteering</h3>
-            <p>Navigation with map and compass</p>
+            <h3>Show time</h3>
+            <p>More than a performance - a moment</p>
           </div>
 
           <div class="activity">
@@ -1082,11 +1122,11 @@
       </div>
     </section>
 
-    <!-- Venue Needs -->
+    <!-- Venue Needs
     <section id="venue" class="venue-section">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Venue Needs</h2>
+          <h2 class="section-title"></h2>
         </div>
 
         <div class="venue-needs">
@@ -1131,64 +1171,62 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Why KAHANI -->
     <section id="why" class="why-section">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Why "KAHANI"?</h2>
+          <h2 class="section-title">Why Epic Malabari?</h2>
         </div>
 
         <div class="why-reasons">
           <div class="reason">
-            <div class="reason-icon">
-              <i class="fas fa-mountain"></i>
-            </div>
+            <div class="reason-icon"><i class="fas fa-shield-alt"></i></div>
             <div>
-              <h3>Unique outdoor program and activities</h3>
+              <!-- <h3>Unique outdoor program and activities</h3> -->
               <p>
-                Our program is designed to challenge participants and create
-                meaningful connections with nature.
+                No Meds. No Masks. Just You. We offer holistic wellness without
+                dependency on substances.
               </p>
             </div>
           </div>
 
           <div class="reason">
             <div class="reason-icon">
-              <i class="fas fa-shield-alt"></i>
+              <i class="fas fa-leaf"></i>
             </div>
             <div>
-              <h3>Experienced staff with proven track record</h3>
+              <!-- <h3>Experienced staff with proven track record</h3> -->
               <p>
-                Our team brings years of expertise in outdoor education and
-                adventure programming.
+                Nature as a healer scientifically and spiritually, nature has
+                profound calming effects. We use it as our core environment.
               </p>
             </div>
           </div>
 
           <div class="reason">
             <div class="reason-icon">
-              <i class="fas fa-book-open"></i>
+              <i class="fas fa-users"></i>
             </div>
             <div>
-              <h3>Powerful stories create a cultural narrative</h3>
+              <!-- <h3>Powerful stories create a cultural narrative</h3> -->
               <p>
-                We believe in the power of shared experiences to create lasting
-                memories.
+                Inclusive & Supportive every session is designed to be safe,
+                non-judgmental, and deeply supportive.
               </p>
             </div>
           </div>
 
           <div class="reason">
             <div class="reason-icon">
-              <i class="fas fa-heart"></i>
+              <i class="fa-solid fa-user-tie"></i>
             </div>
             <div>
-              <h3>Focus on personal growth and development</h3>
+              <!-- <h3>Focus on personal growth and development</h3> -->
               <p>
-                Our programs are designed to build confidence, resilience, and
-                leadership skills.
+                Led by experts our team includes trained facilitators in
+                therapeutic art, movement, and narrative healing.
               </p>
             </div>
           </div>
@@ -1200,22 +1238,21 @@
     <section id="conclusion" class="conclusion-section">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Conclusion</h2>
+          <h2 class="section-title">Join Us</h2>
         </div>
 
         <div class="conclusion-text">
           <p>
-            Our adventure camp proposal represents an exciting opportunity to
-            create meaningful outdoor experiences that combine adventure,
-            education, and personal growth. With our experienced team, carefully
-            designed activities, and commitment to safety and environmental
-            stewardship, we are confident in our ability to deliver an
-            exceptional program.
-          </p>
-          <p>
             We invite you to join us in this exciting venture to connect people
             with nature and each other through unforgettable outdoor adventures.
             Together, we can create stories that last a lifetime.
+          </p>
+          <br />
+          <p>
+            Unplug - Heal - Reconnect <br />
+            Ready to rediscover your inner calm? Join our one day camps, because
+            your well-being matters. Contact us today to reserve your spot or
+            learn more.
           </p>
         </div>
       </div>
@@ -1284,7 +1321,9 @@
         </div>
 
         <div class="logos">
-          <div class="logo-placeholder"><img src="assets/LOGO 2.png" alt=""></div>
+          <div class="logo-placeholder">
+            <img src="assets/LOGO 2.png" alt="" />
+          </div>
           <!-- <div class="logo-placeholder">PARTNER LOGO</div> -->
         </div>
       </div>
