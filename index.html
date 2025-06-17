@@ -1706,8 +1706,8 @@
         const isWithinTwoDays = now - parseInt(dismissedAt, 10) < twoDaysInMs;
         const lastDate = new Date("2025-07-19T00:00:00Z").getTime();
         const isExpired = today >= lastDate;
-
-        if (!isWithinTwoDays && !isExpired) {
+        // isWithinTwoDays// add this to condition if needed
+        if (!isExpired) {
           popup.classList.add("show");
         }
       }
